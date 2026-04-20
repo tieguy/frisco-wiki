@@ -1,0 +1,50 @@
+# Hand-authored event subject. No Wikidata QID for this specific case; the broader
+# SF building-inspection corruption story overlapped with the DPW scandal but the
+# DOJ tracked Santos's prosecution as a separate matter.
+id: dbi-corruption-scandal
+label: San Francisco Department of Building Inspection corruption case (Rodrigo Santos)
+description: A federal bank-fraud, honest-services-fraud, and tax-evasion prosecution of Rodrigo Santos, former president of the San Francisco Building Inspection Commission, who diverted roughly $475,000 in client checks made out to city agencies and arranged bribes to a DBI inspector.
+scope: [event, scandal, corruption, building-inspection]
+
+claims:
+  - id: C000
+    property: P31
+    value: F-political-scandal
+    source: doj-santos-guilty-plea
+  - id: C001
+    property: P276
+    value: Q62
+    source: doj-santos-guilty-plea
+  - id: C002
+    property: P17
+    value: Q30
+    source: doj-santos-guilty-plea
+
+sources:
+  - id: doj-santos-guilty-plea
+    url: https://www.justice.gov/usao-ndca/pr/former-san-francisco-building-inspection-commission-president-pleads-guilty-multiple
+    publication: U.S. Attorney's Office (Northern District of California)
+    date_published: 2023-03-14
+    tier: 2
+    archive:
+      url: https://web.archive.org/web/2/https://www.justice.gov/usao-ndca/pr/former-san-francisco-building-inspection-commission-president-pleads-guilty-multiple
+      method: wayback
+      access: public
+  - id: missionlocal-santos-charged
+    url: https://missionlocal.org/2020/05/rodrigo-santos-former-building-inspection-commission-president-hit-with-federal-criminal-bank-fraud-charges/
+    publication: Mission Local
+    date_published: 2020-05-12
+    tier: 1
+    archive:
+      url: https://web.archive.org/web/2/https://missionlocal.org/2020/05/rodrigo-santos-former-building-inspection-commission-president-hit-with-federal-criminal-bank-fraud-charges/
+      method: wayback
+      access: public
+  - id: kqed-santos-charged
+    url: https://www.kqed.org/news/11817788/former-sf-building-inspection-commissioner-arrested-and-charged-with-bank-fraud
+    publication: KQED
+    date_published: 2020-05-12
+    tier: 1
+    archive:
+      url: https://web.archive.org/web/2/https://www.kqed.org/news/11817788/former-sf-building-inspection-commissioner-arrested-and-charged-with-bank-fraud
+      method: wayback
+      access: public

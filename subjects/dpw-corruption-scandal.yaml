@@ -1,0 +1,41 @@
+# Hand-authored event subject. Wikidata Q124625721 exists but carries little structured
+# data beyond country; primary typing uses the Friski-local F-political-scandal tag.
+id: dpw-corruption-scandal
+wikidata_qid: Q124625721
+label: San Francisco Department of Public Works corruption scandal
+description: A federal public-corruption case surfaced in 2020 with the arrest of Mohammed Nuru, then director of SF Public Works, on charges of honest-services wire fraud and bribery. The investigation eventually charged more than two dozen city officials, contractors, and intermediaries.
+scope: [event, scandal, corruption, public-works]
+
+claims:
+  - id: C000
+    property: P31
+    value: F-political-scandal
+    source: missionlocal-nuru-sentenced
+  - id: C001
+    property: P276
+    value: Q62
+    source: missionlocal-nuru-sentenced
+  - id: C002
+    property: P17
+    value: Q30
+    source: missionlocal-nuru-sentenced
+
+sources:
+  - id: missionlocal-nuru-sentenced
+    url: https://missionlocal.org/2022/08/nuru-sentenced/
+    publication: Mission Local
+    date_published: 2022-08-12
+    tier: 1
+    archive:
+      url: https://web.archive.org/web/2/https://missionlocal.org/2022/08/nuru-sentenced/
+      method: wayback
+      access: public
+  - id: kqed-nuru-sentenced
+    url: https://www.kqed.org/news/11923588/disgraced-former-sf-public-works-chief-mohammed-nuru-sentenced-to-7-years-for-bribery-scheme
+    publication: KQED
+    date_published: 2022-08-12
+    tier: 1
+    archive:
+      url: https://web.archive.org/web/2/https://www.kqed.org/news/11923588/disgraced-former-sf-public-works-chief-mohammed-nuru-sentenced-to-7-years-for-bribery-scheme
+      method: wayback
+      access: public

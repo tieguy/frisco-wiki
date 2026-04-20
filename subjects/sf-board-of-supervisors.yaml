@@ -1,0 +1,26 @@
+# Scaffolded from Wikidata Q3658756.
+id: sf-board-of-supervisors
+wikidata_qid: Q3658756
+label: San Francisco Board of Supervisors
+description: The legislative body of the City and County of San Francisco.
+scope: [institution, legislative-body]
+
+claims:
+  - id: C000
+    property: P31
+    value: Q1175507
+    source: wd-sf-board-of-supervisors
+  - id: C001
+    property: P17
+    value: Q30
+    source: wd-sf-board-of-supervisors
+
+sources:
+  - id: wd-sf-board-of-supervisors
+    url: https://www.wikidata.org/wiki/Q3658756
+    publication: Wikidata
+    tier: 2
+    archive:
+      url: https://web.archive.org/web/2/https://www.wikidata.org/wiki/Q3658756
+      method: wayback
+      access: public
