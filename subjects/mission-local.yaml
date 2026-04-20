@@ -1,12 +1,12 @@
-# Scaffolded from Wikidata Q22077779. Trimmed to the primary P31 (Q11032, newspaper);
-# scaffolder also emitted Q17232649 (news website) which isn't in the allowlist and
-# adds no primary-type clarity.
+# Updated by ensure-archived — captured snapshot URLs written into source records.
 id: mission-local
 wikidata_qid: Q22077779
 label: Mission Local
 description: A San Francisco neighborhood-focused online newspaper covering the Mission District and the broader city.
-scope: [institution, publication, press]
-
+scope:
+  - institution
+  - publication
+  - press
 claims:
   - id: C000
     property: P31
@@ -16,13 +16,12 @@ claims:
     property: P17
     value: Q30
     source: wd-mission-local
-
 sources:
   - id: wd-mission-local
     url: https://www.wikidata.org/wiki/Q22077779
     publication: Wikidata
     tier: 2
     archive:
-      url: https://web.archive.org/web/2/https://www.wikidata.org/wiki/Q22077779
+      url: https://web.archive.org/web/20260420215405/https://www.wikidata.org/wiki/Q22077779
       method: wayback
       access: public

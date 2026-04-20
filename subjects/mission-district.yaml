@@ -1,12 +1,12 @@
-# Scaffolded from Wikidata Q7469. Trimmed to the primary neighborhood P31 (Q123705);
-# scaffolder also emitted Q1969642 / Q748198 / Q108871638 as more-specific typings,
-# but the primary type is what matters for the allowlist gate.
+# Updated by ensure-archived — captured snapshot URLs written into source records.
 id: mission-district
 wikidata_qid: Q7469
 label: Mission District
 description: A neighborhood in San Francisco, California, centered along 24th Street and Mission Street.
-scope: [place, neighborhood, mission]
-
+scope:
+  - place
+  - neighborhood
+  - mission
 claims:
   - id: C000
     property: P31
@@ -20,13 +20,12 @@ claims:
     property: P17
     value: Q30
     source: wd-mission-district
-
 sources:
   - id: wd-mission-district
     url: https://www.wikidata.org/wiki/Q7469
     publication: Wikidata
     tier: 2
     archive:
-      url: https://web.archive.org/web/2/https://www.wikidata.org/wiki/Q7469
+      url: https://web.archive.org/web/20260420215131/https://www.wikidata.org/wiki/Q7469
       method: wayback
       access: public

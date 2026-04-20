@@ -27,7 +27,7 @@ sources:
     date_published: 2023-03-14
     tier: 2
     archive:
-      url: https://web.archive.org/web/2/https://www.justice.gov/usao-ndca/pr/former-san-francisco-building-inspection-commission-president-pleads-guilty-multiple
+      url: https://web.archive.org/web/20260406083739/https://www.justice.gov/usao-ndca/pr/former-san-francisco-building-inspection-commission-president-pleads-guilty-multiple
       method: wayback
       access: public
   - id: missionlocal-santos-charged

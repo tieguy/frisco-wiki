@@ -27,7 +27,7 @@ sources:
     date_published: 2022-08-12
     tier: 1
     archive:
-      url: https://web.archive.org/web/2/https://missionlocal.org/2022/08/nuru-sentenced/
+      url: https://web.archive.org/web/20260309202835/https://missionlocal.org/2022/08/nuru-sentenced/
       method: wayback
       access: public
   - id: kqed-nuru-sentenced
