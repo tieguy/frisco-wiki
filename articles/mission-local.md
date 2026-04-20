@@ -1,7 +1,5 @@
 ---
 title: Mission Local
-slug: mission-local
-primary_subject: mission-local
 subjects: [mission-local, mission-district]
 scope: [institution, publication, press]
 tags: [nonprofit-news]

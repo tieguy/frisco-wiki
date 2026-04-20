@@ -1,7 +1,5 @@
 ---
 title: Jackie Fielder
-slug: jackie-fielder
-primary_subject: jackie-fielder
 subjects: [jackie-fielder, sf-board-of-supervisors]
 scope: [person, politician]
 tags: [district-9, board-of-supervisors]

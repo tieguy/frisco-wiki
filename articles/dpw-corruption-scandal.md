@@ -1,8 +1,5 @@
 ---
 title: SF Department of Public Works corruption scandal
-slug: dpw-corruption-scandal
-primary_subject: dpw-corruption-scandal
-subjects: [dpw-corruption-scandal]
 scope: [event, corruption]
 tags: [federal-prosecution, public-works]
 ---

@@ -1,8 +1,5 @@
 ---
 title: SF Department of Building Inspection corruption case
-slug: dbi-corruption-scandal
-primary_subject: dbi-corruption-scandal
-subjects: [dbi-corruption-scandal]
 scope: [event, corruption]
 tags: [federal-prosecution, building-inspection]
 ---
